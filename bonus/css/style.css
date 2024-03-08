@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-game{
+    max-width: 300px;
+    min-height: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px dashed black;
+    border-radius: 10px;
+    background-color:rgb(42, 10, 171); 
+    color: white;
+}
+.container-game *{
+    margin: 10px 0;
+}
+
+#nut-game{
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 40px 10px 40px 10px;
+    background-color: rgb(25, 25, 140);
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.container-form{
+    background-color: rgb(42, 10, 171);
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 30px;
+    color: white;
+}
+
+.container-form input {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#btn-var{
+    padding: 10px;
+    margin: 0 80px;
+    border-radius: 10px;
+}
+
+#verification{
+    height: 100%;
+    
+}
+
+.non-entra{
+    background-image: url(non-entra.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.entra{
+    background-image: url(entra.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
